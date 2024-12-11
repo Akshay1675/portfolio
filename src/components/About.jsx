@@ -23,10 +23,10 @@ const openPDF = () => {
       <section id="about" className="py-16 bg-white text-gray-900">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
-          <p className="text-lg text-gray-700 font-semibold text-center">
-            I'm a React Developer. I specialize in creating beautiful, responsive, and interactive websites.
+          <p className="text-[#767676] font-semibold text-[17px] text-center">
+            I'm a Frontend Developer. I specialize in creating beautiful, responsive, and interactive websites.
           </p>
-          <h2 className="text-3xl font-bold text-center mb-10 mt-12">Tech Stack</h2>
+          <h2 className="text-xl font-bold text-center mb-10 mt-12">Tech Stack</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 place-items-center">
           {skills.map((skill, index) => (
             <div
@@ -52,7 +52,7 @@ const openPDF = () => {
         <a href="https://www.linkedin.com/in/ak1675/" target="_blank" rel="noopener noreferrer"> <LinkedinIcon /></a>
           <a href="https://github.com/Akshay1675" target="_blank" rel="noopener noreferrer"><GithubIcon /></a>
           <Mail className="cursor-pointer" onClick={handleEmailClick}/>
-          <button className="px-4 py-2 -mt-3 ml-2 bg-black text-white rounded-lg cursor-pointer" onClick={openPDF}>Resume</button>
+          <button className="px-4 py-2 -mt-3 ml-2 bg-black text-[17px] text-white rounded-lg cursor-pointer" onClick={openPDF}>Resume</button>
 
 
         </div>

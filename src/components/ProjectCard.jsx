@@ -20,7 +20,7 @@ const ProjectCard = ({ project, isReversed }) => {
       {/* Project Details */}
       <div className="flex-1">
         <h3 className="text-2xl text-black font-bold mb-4">{project.title}</h3>
-        <p className="text-gray-900 font-bold mb-4">{project.description}</p>
+        <p className="text-[#767676] font-semibold text-[17px] mb-4">{project.description}</p>
         <div className='flex'>
           <a
             href={project.demoLink}
