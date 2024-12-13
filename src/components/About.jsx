@@ -17,7 +17,7 @@ const About = () => {
 };
 
 const openPDF = () => {
-  window.open('/Akshay2.pdf', '_blank');
+  window.open('/Akshay3.pdf', '_blank');
 };
     return (
       <section id="about" className="py-16 bg-white text-gray-900">
